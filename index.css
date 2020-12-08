@@ -1,1 +1,99 @@
 /* Put your style information here! */
+.row{
+    /*	justify-content: center;*/
+    margin-bottom: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+#introduction{
+    padding-left: 0vw;
+    padding-top: 2vw;
+    
+}
+
+@media screen and (max-width: 500px) {
+    #introduction {
+      font-size: 14px;
+    }
+    .kirby-col{
+        justify-content: center;
+    }
+    .kirby{
+        width: 80vw;
+    }
+    h1 {
+
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    .kirby-profile-pic{
+        width: 6vw;
+    }
+    .text-intro{
+        font-size: 14px;
+    }
+
+    .text{
+        font-size: 10px;
+    }
+  }
+
+@media screen and (min-width: 501px) {
+    #introduction {
+      font-size: 26px;
+    }
+    .kirby{
+
+        width: 20vw;
+    }
+
+    h1 {
+
+        font-size: 3vw;
+    }
+
+    h3 {
+        font-size: 1.9vw;
+    }
+
+    .text-intro{
+        font-size: 24px;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+
+    .kirby-profile-pic{
+        width: 3vw;
+    }
+
+}
+
+
+
+
+#cards{
+    padding-top: 2vw;
+}
+
+.card{
+    margin-bottom: 2vw;
+}
+
+#column {
+     padding-left: 0vw;
+}
+
+#portfolio-text{
+
+    /* padding-left: 0.5vw; */
+}
+
+
+
+

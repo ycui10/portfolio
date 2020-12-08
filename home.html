@@ -2,13 +2,131 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Kirby's Portfolio!</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
     <!-- TODO: put your HTML code here! -->
+    <div class = "container-fluid">
+
+      <div class = "row"  style = "margin-top: 5vw; margin-bottom: 1vw;">
+        <h1>
+          Kirby
+        </h1>
+      </div>
+
+
+      <div class = "row"  style = "margin-bottom: 8vw;">
+        <div class = "col-sm-8" id = "introduction">
+
+          <p class = "introducton-text">
+            hi! my name is Kirby
+            <br>
+            passionate about understanding user behavior through data
+            <br>
+            <b>currently:</b> computer science @ Brown
+            <br>
+            <b>previously:</b> product management intern @ Bytedance, product management intern @ AInnovation
+          </p>
+        </div>
+        <div class = "col-sm-4 kirby-col" id = "profile-pic" >
+            <img class = "kirby" src = "kirby.jpg">
+        </div>
+      </div>
+
+
+      <div class = "row"  style = "margin-bottom: 1vw;">
+        <h1>
+          Projects
+        </h1>
+      </div>
+
+      <div class = "row" id ="cards" >
+        
+        <div class="col-sm" id = "column">
+          <div class="card" >
+            <img src="iterative.png" class="card-img-top" alt="iterative design cover image">
+            <div class="card-body">
+              <h5 class="card-title">Iterative Design</h5>
+              <p class="card-text">Design an interface for a startup from scratch.</p>
+              <a href="iterative.html" class="btn btn-primary stretched-link">See details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm" id = "column">
+          <div class="card">
+            <img src="abtesting.png" class="card-img-top" alt="abtesting cover image">
+            <div class="card-body">
+              <h5 class="card-title">A/B Testing</h5>
+              <p class="card-text">Perform an A/B test and statistical analysis to gather insight into two different UI designs. 
+              </p>
+              <a href="abtesting.html" class="btn btn-primary stretched-link">See details</a>
+            </div>
+          </div>
+        </div>
+
+          
+
+
+          <div class="w-100"></div>
+
+          <div class="col-sm" id = "column">
+            <div class="card">
+              <img src="persona.png" class="card-img-top" alt="persona cover image">
+              <div class="card-body">
+                <h5 class="card-title">Persona</h5>
+                <p class="card-text">Step into users shoes. Observe real users interacting with an interface, interview and create personas. </p>
+                <a href="persona.html" class="btn btn-primary stretched-link">See details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm" id = "column">
+            <div class="card">
+              <img src="lipstick-kingdom.JPG" class="card-img-top" alt="development cover image">
+              <div class="card-body">
+                <h5 class="card-title">Development</h5>
+                <p class="card-text"> A lip product shopping website that allows user to filter on the type and brand of products.
+                </p>
+                <a href="development.html" class="btn btn-primary stretched-link">See details</a>
+              </div>
+            </div>
+           </div>
+
+          
+      </div>
+
+
+      <div class = "row"  style = "margin-bottom: 1vw;">
+        <h1>
+          Skills
+        </h1>
+      </div>
+
+      <div class = "row" id ="cards" >
+        <div class="col-sm" id = "column" style = "margin-bottom: 1vw;">
+          <a href = "persona.html" class="btn btn-outline-dark btn-block text-intro" style = "padding: 5%"> User Research</a>
+        </div>
+        <div class="col-sm" id = "column" style = "margin-bottom: 1vw;">
+          <a href = "iterative.html" class="btn btn-outline-dark btn-block text-intro" style = "padding: 5%"> UI Design, Iterative Prototyping</a>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-sm" id = "column">
+          <a href = "abtesting.html" class="btn btn-outline-dark btn-block text-intro" style = "padding: 5%">A/B Testing</a>
+        </div>
+        <div class="col-sm" id = "column">
+          <a href = "development.html" class="btn btn-outline-dark btn-block text-intro" style = "padding: 5%"> Web Development</a>
+        </div>
+      </div>
+
+
+
+    </div>
   </body>
 </html>
